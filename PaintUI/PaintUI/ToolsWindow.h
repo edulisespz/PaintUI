@@ -160,7 +160,10 @@ namespace PaintUI {
 			this->button1->Location = System::Drawing::Point(3, 3);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 22);
+			//this->button1->Image= Image::FromFile("C:/Users/ZaragozaAlpha/Documents/Universidad/Sem_2015A/Taller Graficas/Proyecto github/Iconos/line.bmp");
+			this->button1->Image = Image::FromFile("../../Iconos/line.bmp");
 			this->button1->TabIndex = 0;
+			this->button1->TextAlign = ContentAlignment::MiddleLeft;
 			this->button1->Text = L"Linea";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &ToolsWindow::button1_OnClick);
@@ -171,6 +174,8 @@ namespace PaintUI {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 22);
 			this->button2->TabIndex = 1;
+			this->button2->Image = Image::FromFile("../../Iconos/Circle.bmp");
+			this->button2->TextAlign = ContentAlignment::MiddleLeft;
 			this->button2->Text = L"Circulo";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &ToolsWindow::button2_OnClick);
@@ -181,6 +186,8 @@ namespace PaintUI {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(75, 22);
 			this->button3->TabIndex = 2;
+			this->button3->Image = Image::FromFile("../../Iconos/oval.bmp");
+			this->button3->TextAlign = ContentAlignment::MiddleLeft;
 			this->button3->Text = L"Elipse";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &ToolsWindow::button3_Click);
@@ -191,6 +198,8 @@ namespace PaintUI {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(75, 22);
 			this->button4->TabIndex = 3;
+			this->button4->Image = Image::FromFile("../../Iconos/triangle.bmp");
+			this->button4->TextAlign = ContentAlignment::MiddleLeft;
 			this->button4->Text = L"Triangulo";
 			this->button4->UseVisualStyleBackColor = true;
 			this->button4->Click += gcnew System::EventHandler(this, &PaintUI::ToolsWindow::button4_Click);
@@ -201,6 +210,8 @@ namespace PaintUI {
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(75, 22);
 			this->button5->TabIndex = 4;
+			this->button5->Image = Image::FromFile("../../Iconos/square.bmp");
+			this->button5->TextAlign = ContentAlignment::MiddleLeft;
 			this->button5->Text = L"Cuadrado";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click +=gcnew System::EventHandler(this, &PaintUI::ToolsWindow::button5_Click);
@@ -211,7 +222,9 @@ namespace PaintUI {
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(75, 22);
 			this->button6->TabIndex = 5;
-			this->button6->Text = L"Pentágono";
+			this->button6->Image = Image::FromFile("../../Iconos/Poli_5.bmp");
+			this->button6->TextAlign = ContentAlignment::MiddleLeft;
+			this->button6->Text = L"PentÃ¡gono";
 			this->button6->UseVisualStyleBackColor = true;
 			this->button6->Click += gcnew System::EventHandler(this, &PaintUI::ToolsWindow::button6_Click);
 			// 
@@ -221,7 +234,9 @@ namespace PaintUI {
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(75, 22);
 			this->button7->TabIndex = 6;
-			this->button7->Text = L"Hexágono";
+			this->button7->Image = Image::FromFile("../../Iconos/Poli_6.bmp");
+			this->button7->TextAlign = ContentAlignment::MiddleLeft;
+			this->button7->Text = L"HexÃ¡gono";
 			this->button7->UseVisualStyleBackColor = true;
 			this->button7->Click +=gcnew System::EventHandler(this, &PaintUI::ToolsWindow::button7_Click);
 			// 
@@ -231,7 +246,9 @@ namespace PaintUI {
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(75, 22);
 			this->button8->TabIndex = 7;
-			this->button8->Text = L"Heptágono";
+			this->button8->Image = Image::FromFile("../../Iconos/Poli_7.bmp");
+			this->button8->TextAlign = ContentAlignment::MiddleLeft;
+			this->button8->Text = L"HeptÃ¡gono";
 			this->button8->UseVisualStyleBackColor = true;
 			this->button8->Click += gcnew System::EventHandler(this, &PaintUI::ToolsWindow::button8_Click);
 			// 
